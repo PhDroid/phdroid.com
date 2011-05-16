@@ -4,5 +4,36 @@
  * Register page of contest engine.
  */
 {template .register}
-	Register here
+	<h3>Регистрация участника</h3>
+	<div id="registration_form"><form>
+		<table>
+			<tr>
+				<td>Имя:</td>
+				<td><input id="fullname" type="text" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input id="email" type="text" /></td>
+			</tr>
+            <tr>
+				<td>Моб.телефон:</td>
+				<td><input id="cellphone" type="text" /></td>
+			</tr>
+            <tr>
+				<td>Технология:</td>
+				<td>dropdown</td>
+			</tr>
+			<tr>
+				<td>Опыт работы в рамках технологии:</td>
+				<td><input id="experience" type="text" /></td>
+			</tr>
+			<tr>
+				<td>Компания:</td>
+				<td><input id="company" type="text" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="Submit" /></td>
+			</tr>
+		</table>
+	</form><div/>
 {/template}
