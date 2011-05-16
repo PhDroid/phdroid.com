@@ -13,8 +13,5 @@ handlers:
 - url: /css
   static_dir: css
 
-- url: /pages
-  static_dir: pages
-
 - url: .*
   script: main.py
