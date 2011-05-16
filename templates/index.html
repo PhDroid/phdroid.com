@@ -3,13 +3,40 @@
 <html>
 <head>
 	<title></title>
+	<link href="/css/main.css" type="text/css" rel="stylesheet"/>
+	<link href="/css/menu.css" type="text/css" rel="stylesheet"/>
 	<script type="text/javascript" src="/scripts/soyutils.js"></script>
 	<script type="text/javascript" src="/scripts/index.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,bold&subset=cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold&subset=cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:regular,bold&subset=cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <script type="text/javascript">
-    // Exercise the .helloWorld template
-    document.write(mouthpiece.site.index());
-  </script>
+<div id="page">
+	<div id="header">
+		<div id="logo" class="inline">
+			<img src="/images/mirantis.gif" alt="Mirantis" title="Mirantis"/>
+		</div>
+		<div id="title_column" class="inline">
+			<div id="title">
+				<h1>Mobile contest</h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#register">Register</a></li>
+					<li><a href="#news">News</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="clearBoth">
+		<script type="text/javascript">
+			// Exec .index template
+			document.write(mouthpiece.site.index());
+		</script>
+	</div>
+</div>
 </body>
 </html>

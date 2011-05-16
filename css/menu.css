@@ -1,0 +1,25 @@
+#menu {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'PT Sans Narrow', 'Arial Narrow', arial, sans-serif;
+	text-shadow: 1px 1px 0 white;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	min-height: 27px;
+	list-style-type: none;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	color: #184A7C;
+	font-weight: normal;
+	padding: 7px 12px;
+	font-size: 19px;
+	text-decoration: none;
+}
