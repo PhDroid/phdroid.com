@@ -42,7 +42,7 @@ window.onload = init;
 
 //On load page, init the timer which check if the there are anchor changes each 300 ms
 init(function(){
-    setInterval("checkAnchor()", 300);
+    setInterval("checkAnchor()", 100);
 });
 
 var currentAnchor = null;
