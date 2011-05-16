@@ -57,3 +57,7 @@ a:hover { text-decoration: none; color:#47bdff; }
 	padding: 10px 10px 10px 10px;
 	float: right;
 }
+
+.about_menu {
+	padding-right: 25px;
+}
