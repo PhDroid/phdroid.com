@@ -64,14 +64,11 @@ h1, h3 {
 	text-align:center;
 }
 
-.about_menu_item {
-	padding-right: 25px;
-}
+.about_menu_item { padding-right: 25px; }
 
-#content {
-	padding-top: 10px;
-}
+#content { padding-top: 10px; }
 
-#content h3 {
-	margin-left: 60px;
-}
+#content h3 { margin-left: 60px; }
+
+#prizes { width: 100%; text-align: center; margin: 10px 0; }
+.prize { height: 225px; }
