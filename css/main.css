@@ -3,7 +3,7 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	font-family: 'PT Sans', tahoma, verdana, arial;
+	font-family: 'PT Sans', tahoma, verdana, arial, sans-serif;
 }
 
 div.inline { float:left; }
