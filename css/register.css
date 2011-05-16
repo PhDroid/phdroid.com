@@ -1,0 +1,14 @@
+#registration_form {
+	margin: 0;
+	padding: 0;
+}
+
+#registration_form ul { margin: 0; padding: 0; list-style-type: none; }
+
+#registration_form table {
+   border: 0;
+   padding: 0;
+   border-collapse: collapse;
+}
+#registration_form table td { padding: 0 0 10px 0; }
+#registration_form table .right { padding-left: 15px; }

@@ -8,28 +8,34 @@
 	<div id="registration_form"><form>
 		<table>
 			<tr>
-				<td>Имя:</td>
-				<td><input id="fullname" type="text" /></td>
+				<td class="left">Имя:</td>
+				<td class="right"><input id="fullname" type="text" /></td>
 			</tr>
 			<tr>
-				<td>Email:</td>
-				<td><input id="email" type="text" /></td>
+				<td class="left">Email:</td>
+				<td class="right"><input id="email" type="text" /></td>
 			</tr>
             <tr>
-				<td>Моб.телефон:</td>
-				<td><input id="cellphone" type="text" /></td>
+				<td class="left">Моб.телефон:</td>
+				<td class="right"><input id="cellphone" type="text" /></td>
 			</tr>
             <tr>
-				<td>Технология:</td>
-				<td>dropdown</td>
+				<td class="left">Технология:</td>
+				<td class="right">
+					<ul>
+						<li><input id="technology_android" type="checkbox" value="Android">Android</checkbox></li>
+						<li><input id="technology_iphone" type="checkbox" value="iPhone">iOS</checkbox></li>
+						<li><input id="technology_blackberry" type="checkbox" value="Blackberry">Blackberry</checkbox></li>
+					</ul>
+				</td>
 			</tr>
 			<tr>
-				<td>Опыт работы в рамках технологии:</td>
-				<td><input id="experience" type="text" /></td>
+				<td class="left">Опыт в рамках технологии:</td>
+				<td class="right"><input id="experience" type="text" /></td>
 			</tr>
 			<tr>
-				<td>Компания:</td>
-				<td><input id="company" type="text" /></td>
+				<td class="left">Компания:</td>
+				<td class="right"><input id="company" type="text" /></td>
 			</tr>
 			<tr>
 				<td colspan="2"><input type="button" value="Submit" /></td>
