@@ -7,6 +7,5 @@ handlers:
 - url: /scripts
   static_dir: scripts
 
-handlers:
 - url: .*
   script: main.py
