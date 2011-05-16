@@ -3,6 +3,7 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	font-family: 'PT Sans', tahoma, verdana, arial;
 }
 
 div.inline { float:left; }
@@ -13,6 +14,15 @@ a:link { color: #1a93d6; }
 a:visited { color:#1a93d6; }
 a:active { color: #FF6A40; }
 a:hover { text-decoration: none; color:#47bdff; }
+
+h1, h3 {
+	font-family: 'PT Sans Narrow', 'Arial Narrow' arial, sans-serif;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 7px;
+	margin-top: 0;
+	text-shadow: 1px 1px 0 #fff;
+}
 
 #page {
 	height: 100%;
@@ -39,15 +49,6 @@ a:hover { text-decoration: none; color:#47bdff; }
 	padding-left: 15%;
 }
 
-#title h1 {
-	font-family: 'PT Sans Narrow', 'Arial Narrow' arial, sans-serif;
-	font-weight: bold;
-	padding: 0;
-	margin-bottom: 7px;
-	margin-top: 0;
-	text-shadow: 1px 1px 0 #fff;
-}
-
 #title h1 a {
 	text-decoration:none;
 	color: #706C7E;
@@ -58,6 +59,19 @@ a:hover { text-decoration: none; color:#47bdff; }
 	float: right;
 }
 
-.about_menu {
+#about_menu {
+	width: 100%;
+	text-align:center;
+}
+
+.about_menu_item {
 	padding-right: 25px;
+}
+
+#content {
+	padding-top: 10px;
+}
+
+#content h3 {
+	margin-left: 60px;
 }
