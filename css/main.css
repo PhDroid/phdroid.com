@@ -31,22 +31,14 @@ h1, h3 {
 	background-color: #ffffff;
 }
 
-#header {
-	padding-top: 10px;
-}
-
-#logo {
-	min-width: 15%;
-}
-
-#title_column {
-	min-width: 75%;
-}
+#header { margin-top: 10px; }
+#logo { min-width: 15%; }
+#title_column { min-width: 75%; }
 
 #title {
 	width: 100%;
 	text-align: left;
-	padding-left: 15%;
+	margin-left: 15%;
 }
 
 #title h1 a {
@@ -59,16 +51,9 @@ h1, h3 {
 	float: right;
 }
 
-#about_menu {
-	width: 100%;
-	text-align:center;
-}
-
+#about_menu { width: 100%; text-align:center; }
 .about_menu_item { padding-right: 25px; }
-
 #content { padding-top: 10px; }
-
 #content h3 { margin-left: 60px; }
-
 #prizes { width: 100%; text-align: center; margin: 10px 0; }
 .prize { height: 225px; }
