@@ -5,40 +5,40 @@
  */
 {template .register}
 	<h3>Регистрация участника</h3>
-	<div id="registration_form"><form id="form1" action="/cmd/register" method="post">
+	<div id="registration_form"><form name="form1" action="/register" method="post">
 		<table>
 			<tr>
 				<td class="left">Имя:</td>
-				<td class="right"><input id="fullname" type="text" /></td>
+				<td class="right"><input name="fullname" type="text" /></td>
 			</tr>
 			<tr>
 				<td class="left">Email:</td>
-				<td class="right"><input id="email" type="text" /></td>
+				<td class="right"><input name="email" type="text" /></td>
 			</tr>
             <tr>
-				<td class="left">Моб.телефон:</td>
-				<td class="right"><input id="cellphone" type="text" /></td>
+				<td class="left">Моб. телефон:</td>
+				<td class="right"><input name="cellphone" type="text" /></td>
 			</tr>
             <tr>
 				<td class="left">Технология:</td>
 				<td class="right">
 					<ul>
-						<li><input id="technology_android" type="checkbox" value="Android">Android</checkbox></li>
-						<li><input id="technology_iphone" type="checkbox" value="iPhone">iOS</checkbox></li>
-						<li><input id="technology_blackberry" type="checkbox" value="Blackberry">Blackberry</checkbox></li>
+						<li><input name="technology_android" type="checkbox" value="Android">Android</checkbox></li>
+						<li><input name="technology_iphone" type="checkbox" value="iPhone">iOS</checkbox></li>
+						<li><input name="technology_blackberry" type="checkbox" value="Blackberry">Blackberry</checkbox></li>
 					</ul>
 				</td>
 			</tr>
 			<tr>
 				<td class="left">Опыт в рамках технологии:</td>
-				<td class="right"><input id="experience" type="text" /></td>
+				<td class="right"><input name="experience" type="text" /></td>
 			</tr>
 			<tr>
 				<td class="left">Компания:</td>
-				<td class="right"><input id="company" type="text" /></td>
+				<td class="right"><input name="company" type="text" /></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="button" value="Submit" /></td>
+				<td colspan="2"><input name="submit" type="submit" value="Submit" /></td>
 			</tr>
 		</table>
 	</form><div/>
