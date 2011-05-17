@@ -52,7 +52,13 @@ function checkAnchor(){
 
     //Check if it has changes
     if(currentAnchor != document.location.hash){
-        currentAnchor = document.location.hash;
+        if (currentAnchor == null) {
+	        currentAnchor = document.location.hash;
+            return
+        } else {
+	        currentAnchor = document.location.hash;
+        }
+	    
         //Creates the  string callback. This converts the url URL/#main&id=2 in URL/?section=main&id=2
 	    var splits = currentAnchor.substring(1).split('&');
 	    //Get the section
