@@ -8,19 +8,23 @@
 	<div id="registration_form"><form name="form1" action="/register" method="post">
 		<table>
 			<tr>
-				<td class="left">Имя:</td>
+				<td class="left">Имя<span class="mandatory">*</span>:</td>
 				<td class="right"><input name="fullname" type="text" /></td>
 			</tr>
 			<tr>
-				<td class="left">Email:</td>
+				<td class="left">Email<span class="mandatory">*</span>:</td>
 				<td class="right"><input name="email" type="text" /></td>
 			</tr>
             <tr>
-				<td class="left">Моб. телефон:</td>
+				<td class="left">Моб. телефон<span class="mandatory">*</span>:</td>
 				<td class="right"><input name="cellphone" type="text" /></td>
 			</tr>
             <tr>
-				<td class="left">Технология:</td>
+				<td class="left">Город<span class="mandatory">*</span>:</td>
+				<td class="right"><input name="city" type="text" /></td>
+			</tr>
+            <tr>
+				<td class="left">Технология<span class="mandatory">*</span>:</td>
 				<td class="right">
 					<ul>
 						<li><input name="technology_android" type="checkbox" value="Android">Android</checkbox></li>
@@ -36,6 +40,22 @@
 			<tr>
 				<td class="left">Компания:</td>
 				<td class="right"><input name="company" type="text" /></td>
+			</tr>
+            <tr>
+				<td class="left">Skype:</td>
+				<td class="right"><input name="skype" type="text" /></td>
+			</tr>
+			<tr>
+				<td class="left">Twitter:</td>
+				<td class="right"><input name="twitter" type="text" /></td>
+			</tr>
+			<tr>
+				<td class="left">Ссылка на блог:</td>
+				<td class="right"><input name="blog" type="text" /></td>
+			</tr>
+			<tr>
+				<td class="left">Как вы узнали о конкурсе:</td>
+				<td class="right"><input name="how_did_you_know" type="text" /></td>
 			</tr>
 			<tr>
 				<td colspan="2"><input name="submit" type="submit" value="Submit" /></td>
