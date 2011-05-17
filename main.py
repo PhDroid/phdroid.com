@@ -42,7 +42,7 @@ class RegisterHandler(webapp.RequestHandler):
 		)
 
 		p.put()
-		self.response.out.write("registered for technology: %s" % technologyList)
+		self.redirect("/#registrationSuccess")
 
 class MainHandler(webapp.RequestHandler):
 	def get(self):

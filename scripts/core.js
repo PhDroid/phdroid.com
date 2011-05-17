@@ -62,20 +62,23 @@ function checkAnchor(){
 
 	    switch (section) {
 		    case "register":
-				    soy.renderElement(container, mouthpiece.site.register, {});
+			    soy.renderElement(container, mouthpiece.site.register, {});
 			    break;
 		    case "news":
-				    soy.renderElement(container, mouthpiece.site.news, {});
+				soy.renderElement(container, mouthpiece.site.news, {});
 			    break;
 		    case "contacts":
-				    soy.renderElement(container, mouthpiece.site.contacts, {});
+				soy.renderElement(container, mouthpiece.site.contacts, {});
 			    break;
 		    case "about":
-				    soy.renderElement(container, mouthpiece.site.about_detailed, {});
+				soy.renderElement(container, mouthpiece.site.about_detailed, {});
 			    break;
+		    case "registrationSuccess":
+		        soy.renderElement(container, mouthpiece.site.registrationSuccess, {});
+		        break;
 		    case "home":
 		    default:
-				    soy.renderElement(container, mouthpiece.site.index, {});
+				soy.renderElement(container, mouthpiece.site.index, {});
 	    }
     }
 }
