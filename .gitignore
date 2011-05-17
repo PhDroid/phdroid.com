@@ -1,3 +1,6 @@
 # Ignore unnecessary idea files
 .idea/workspace.xml
 
+# Ignore *.pyc files
+*.pyc
+
