@@ -32,7 +32,8 @@ h1, h3 {
 }
 
 #header { margin-top: 10px; }
-#logo { min-width: 15%; }
+#logo { min-width: 15%;  }
+#logo img { width: 100%; }
 #title_column { min-width: 75%; }
 
 #title {
